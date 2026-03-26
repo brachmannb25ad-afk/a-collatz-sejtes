@@ -1,0 +1,24 @@
+!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Collatz-sejtés Vizualizáló</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Collatz-sejtés</h1>
+        <input type="number" id="numberInput" placeholder="Adj meg egy számot...">
+        <button onclick="szamol()">Futtatás</button>
+        <div id="result"></div>
+    </div>
+    <script src="kep.png"></script>
+
+    <div class="flowchart-container">
+        <h3 style="font-size: 30px;">Az algoritmus folyamatábrája:</h3>
+        <img src="kep.png" alt="Collatz-sejtés folyamatábra"
+            style="max-width: 100%; border: 1px solid #ddd; width: 1000px;">
+    </div>
+</body>
